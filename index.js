@@ -35,8 +35,6 @@ const colors = {
       white: (label, str) => console.log(colors.BgWhite + colors.FgBlack + label + ":"+ colors.Reset, colors.FgWhite + str, colors.Reset),
   }
 
-  log.magenta("Cheese", {hello: "cheese"}.toString())
-
   module.exports = {
       colors,
       log
